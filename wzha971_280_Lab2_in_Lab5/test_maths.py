@@ -24,10 +24,10 @@ class MathsTest(unittest.TestCase):
 
     def test_factorial(self):
         result = maths.factorial(9)
-        self.assertEqual(result, 362880)
+        self.assertEqual(result,362880)
         
         result = maths.factorial(8)
-        self.assertEqual(result, 40320)
+        self.assertEqual(result,40320)
 
 # This allows running the unit tests from the command line (python test_maths.py)
 if __name__ == '__main__':
